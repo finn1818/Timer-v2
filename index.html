@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cadence Quest</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="title-panel wood-frame">
+      <h1>Cadence Quest</h1>
+      <button id="start-btn" class="wood-button">Start</button>
+    </div>
+    <div class="select-class-panel wood-panel">
+      <h2>Select Class</h2>
+      <div class="class-buttons">
+        <button class="class-btn" data-class="SS"><img src="assets/icon_ss.png" alt="SS" /> SS</button>
+        <button class="class-btn" data-class="ELA"><img src="assets/icon_ela.png" alt="ELA" /> ELA</button>
+        <button class="class-btn" data-class="Math"><img src="assets/icon_math.png" alt="Math" /> Math</button>
+        <button class="class-btn" data-class="Science"><img src="assets/icon_science.png" alt="Science" /> Science</button>
+      </div>
+      <div class="progress-bar-container wood-panel-inset">
+        <div id="progress-bar"></div>
+        <span id="time-label">40:00</span>
+      </div>
+      <div class="status-panel wood-panel-inset">
+        <img src="assets/avatar.png" alt="Avatar" class="avatar" />
+        <div class="stats">
+          <div><img src="assets/icon_star.png" alt="Points" /> Points: <span id="points">0</span></div>
+          <div><img src="assets/icon_level.png" alt="Level" /> Level: <span id="level">1</span></div>
+          <div><img src="assets/icon_coin.png" alt="Coins" /> Coins: <span id="coins">0</span></div>
+        </div>
+      </div>
+      <button id="break-btn" class="break-button">Take a Break</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
