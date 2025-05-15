@@ -1,4 +1,4 @@
-# Cadence Quest
+
 
 ## Getting Started
 
